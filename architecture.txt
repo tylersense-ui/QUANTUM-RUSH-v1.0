@@ -1,0 +1,93 @@
+nexus-apex-speedrun/
+│
+├── fait: 📄 README.md                    # 🆕 Landing page pro avec badges
+├── fait: 📄 CHANGELOG.md                 # 🆕 Historique des versions
+├── 📄 LICENSE                      # 🆕 MIT/Apache/GPL au choix
+├── 📄 CONTRIBUTING.md              # 🆕 Guidelines pour contributors
+│
+├── 📁 .github/                     # 🆕 GitHub automation
+│   ├── workflows/
+│   │   └── validate.yml           # 🆕 CI pour valider les scripts
+│   └── ISSUE_TEMPLATE/
+│       ├── bug_report.md
+│       └── feature_request.md
+│
+├── 📁 docs/                        # 🆕 Documentation complète
+│   ├── fait: ARCHITECTURE.md            # Design overview
+│   ├── SPEEDRUN-GUIDE.md          # Guide stratégique
+│   ├── API-REFERENCE.md           # Docs des modules
+│   ├── BENCHMARKS.md              # Temps targets par phase
+│   └── TROUBLESHOOTING.md         # FAQ
+│
+├── 📁 src/                         # 🆕 Code source (au lieu de root)
+│   │
+│   ├── 📄 boot.js                 # ✨ Entry point amélioré
+│   ├── 📄 global-kill.js          # ✨ Emergency stop amélioré
+│   │
+│   ├── 📁 core/                   # Moteur principal
+│   │   ├── orchestrator.js        # ✨ Optimisé speedrun
+│   │   ├── batcher-v2.js          # ✨ HWGW ultra-agressif
+│   │   ├── dashboard-v2.js        # ✨ Speedrun tracking UI
+│   │   ├── milestone-tracker.js   # 🆕 ETA calculator
+│   │   ├── port-handler.js        # ✅ Gardé (déjà clean)
+│   │   └── ram-manager.js         # ✨ Amélioré (caching)
+│   │
+│   ├── 📁 lib/                    # Bibliothèques
+│   │   ├── fait: capabilities.js        # ✨ Détection SF améliorée
+│   │   ├── fait: network.js             # ✨ Scan optimisé + cache
+│   │   ├── fait: constants.js           # ✨ Config speedrun
+│   │   ├── fait: logger.js              # ✅ Gardé
+│   │   └── fait: utils.js               # 🆕 Helpers (formatters, etc)
+│   │
+│   ├── 📁 speedrun/               # 🆕 Scripts speedrun core
+│   │   ├── phase-detector.js      # 🆕 Auto-detect phase
+│   │   ├── early-rush.js          # 🆕 0→100k$ optimisé
+│   │   ├── mid-scaling.js         # 🆕 100k$→1b$ optimisé
+│   │   ├── late-push.js           # 🆕 1b$→Red Pill
+│   │   ├── aug-optimizer.js       # 🆕 Route calculator
+│   │   └── faction-router.js      # 🆕 Work optimizer
+│   │
+│   ├── 📁 hack/                   # Hacking automation
+│   │   ├── controller.js          # ✨ Dispatcher amélioré
+│   │   ├── watcher.js             # ✅ Gardé
+│   │   └── workers/               # Workers atomiques
+│   │       ├── hack.js            # ✅ Gardé
+│   │       ├── grow.js            # ✅ Gardé
+│   │       ├── weaken.js          # ✅ Gardé
+│   │       └── share.js           # ✅ Gardé
+│   │
+│   ├── 📁 managers/               # Gestionnaires
+│   │   ├── singularity-v2.js      # ✨ Optimisé speedrun
+│   │   ├── stock-master-v2.js     # ✨ 4S profit max
+│   │   ├── server-manager-v2.js   # ✨ Pserv rush logic
+│   │   ├── hacknet-manager.js     # ✅ Gardé (ou amélioré)
+│   │   ├── gang-manager.js        # ✅ Gardé (post-BN1)
+│   │   ├── sleeve-manager.js      # ✅ Gardé (post-BN1)
+│   │   ├── corp-manager.js        # ✅ Gardé (post-BN1)
+│   │   └── program-manager.js     # ✅ Gardé
+│   │
+│   ├── 📁 exploits/               # 🆕 Quick boost scripts
+│   │   ├── crime-rush.js          # 🆕 Crime optimizer
+│   │   ├── pserv-rush.js          # 🆕 Early RAM spam
+│   │   └── casino-helper.js       # 🆕 (si autorisé)
+│   │
+│   └── 📁 tools/                  # Utilitaires
+│       ├── scanner.js             # ✅ Gardé
+│       ├── set-share.js           # ✅ Gardé
+│       ├── liquidate.js           # ✅ Gardé
+│       └── performance-test.js    # 🆕 Benchmark tool
+│
+├── 📁 data/                       # Data files
+│   ├── augmentations.json         # 🆕 Processed aug data
+│   ├── speedrun-routes.json       # 🆕 Pre-calculated paths
+│   └── milestones.json            # 🆕 Target times
+│
+├── 📁 scripts/                    # 🆕 Dev tools (hors jeu)
+│   ├── update-from-github.js      # 🆕 Auto-updater amélioré
+│   ├── validate-syntax.js         # 🆕 Pre-commit check
+│   └── generate-docs.js           # 🆕 Auto-gen docs
+│
+└── 📁 assets/                     # 🆕 Screenshots, logos
+    ├── logo.png
+    ├── dashboard-screenshot.png
+    └── architecture-diagram.png
